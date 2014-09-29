@@ -1,6 +1,6 @@
 		body {
 		background-color: #181818;
-		background-image: url('.publice/images/vineyard.jpg');
+		background-image: url('../images/vineyard.jpg');
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -77,7 +77,7 @@
 		#slideshow {
 		   width: 960px;
 		   height: 426px;
-		   background-image: url("./public/images/car-waxing.jpg");
+		   background-image: url("../images/car-waxing.jpg");
 		}
 		#content {	
 			width: 86%;

@@ -6,18 +6,22 @@ get '/' do
 end
 
 get '/home' do
+	@title = "Home"
 	erb :home
 end
 
 get '/gallery' do
-	erb :gallery
+	@title = "Gallery"
+	erb :gallery	
 end
 
 get '/contact' do
+	@title = "Contact Us"
 	erb :contact
 end
 
 get '/about' do
+	@title = "About Us"
 	erb :about
 end
 
@@ -50,5 +54,6 @@ post '/confirmation' do
 
 	# puts sending
 
+	@title = "Confirmation"
 	erb :confirmation
 end

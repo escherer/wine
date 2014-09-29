@@ -2,8 +2,8 @@
 <!Doctype html>
 <html>
 <head>
-	<title><%= '#{title}' %></title>
-   <link rel="stylesheet" href="./public/css/style.css">
+	<title><%= @title %></title>
+   <link rel="stylesheet" href="./css/style.css">
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 </head>
@@ -14,11 +14,11 @@
    <header>
       	<div id="header_container">
 			<div id="logo">
-				 <a href="./index.html"><img src="./public/images/logo.png" border="0"></a>
+				 <a href="./index.html"><img src="./images/logo.png" border="0"></a>
 			</div>
 
 			<div id="phone">
-					 <img src="./public/images/top-right-grapes.png" border="0">
+					 <img src="./images/top-right-grapes.png" border="0">
 			</div>
 		</div>
 
@@ -38,7 +38,7 @@
     	</div>
       
       <div id="main_no_sidebar">
-		<h2><%= '#{title}' %></h2>
+		<h2><%= @title %></h2>
 		<%=yield%>
       
       </div>
