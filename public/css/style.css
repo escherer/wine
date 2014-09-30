@@ -103,3 +103,30 @@
 	    	background: rgba(33, 33, 33, .7);
 
 		}
+
+
+/*contact page styling*/
+
+#contact_form{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.contact_label{
+	font-weight: bold;
+}
+
+.contact{
+	display: inline-block;
+	font-size: 14pt;
+}
+
+#contact_text{
+	width: 50%;
+	padding: 5px;
+}
+
+#sub_btn{
+	position: relative;
+	right: 5px;
+}
