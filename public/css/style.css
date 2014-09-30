@@ -90,6 +90,25 @@
 			background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
     		background: rgba(255, 255, 255, .5);
 		}
+		#content_wrapper {
+		width: 960px;
+		min-height: 700px
+
+		}
+		#home_left {
+		width: 33%;
+		float: left;
+
+		}
+
+		#home_right {
+		width: 65%;
+		float: left;
+		}
+		#home_left img {
+			width: 300px;
+			border: 1px solid #000;
+		}
 		footer {
 			height: 50px;
 			width: 100%;
