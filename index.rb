@@ -15,6 +15,11 @@ get '/gallery' do
 	erb :gallery	
 end
 
+get '/gallery2' do
+	@title = "Gallery"
+	erb :gallery2	
+end
+
 get '/contact' do
 	@title = "Contact Us"
 	erb :contact
