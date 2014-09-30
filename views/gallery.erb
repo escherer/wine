@@ -1,3 +1,9 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+  </head>
+  <body>
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -46,3 +52,18 @@
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div><!-- /.carousel -->
+
+<!-- Carousel JS -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://getbootstrap.com/2.3.2/assets/js/jquery.js"></script>
+<script src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-carousel.js"></script>
+  <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+  </body>
+  </html>
