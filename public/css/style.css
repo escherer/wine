@@ -191,8 +191,8 @@
 }
 
 .contact_detail{
-	margin-top: 35px;
-	margin-bottom: 15px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 	font-size: 14pt;
 	font-weight: bold;
 }
@@ -203,5 +203,12 @@
 }
 
 #contact_detail_btm{
-	margin-bottom: 35px;
+	margin-bottom: 30px;
+}
+
+#contact_map_canvas{
+	margin: 0 auto;
+	margin-top: 35px;
+	width: 700px;
+	height: 400px;
 }

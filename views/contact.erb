@@ -19,10 +19,24 @@
 
 	<div id="contact_filler">
 		<div class="contact_detail">Contact Details</div>
-		<div class="contact_detail_text">Questions, comment or concern? Send us an E-Mail to get in touch with someone at Shady Grove Vineyards.</div>
+		<div class="contact_detail_text">Questions, comment or concern? Send us an E-Mail to get in touch with someone at Shady Grove Vineyard.</div>
 		<div class="contact_detail">Headquarters</div>
-		<div class="contact_detail_text" id ="contact_detail_btm">Shady Grove Winery <br/>1 Shady Grove Road<br/>Shady Grove, California 94558</div>
+		<div class="contact_detail_text">Shady Grove Winery <br/>1 Shady Grove Road<br/>Shady Grove, California 94558</div>
+		<div class="contact_detail">Number</div>
+		<div class="contact_detail_text" id ="contact_detail_btm">Tel: (707) 777-7777</div>
 	</div>
 </div>
 
 <div id="contact_map_canvas"></div>
+
+<script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: 38.436752, lng: -122.402662},
+          zoom: 10
+        };
+        var map = new google.maps.Map(document.getElementById('contact_map_canvas'),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+</script>
