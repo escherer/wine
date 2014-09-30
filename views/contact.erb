@@ -1,16 +1,22 @@
-<form method="POST" action="/confirmation" id="contact_form">
+<div id="contact_wrap">
+	<div id="contact_filler">
 
-	<label for="username" class="contact_label contact">Name</label>
-	<input type="text" name="username" placeholder="John" class="contact"/>
+	</div>
+	
+	<form method="POST" action="/confirmation" id="contact_form">
 
-	<label for="email" class="contact_label contact">E-Mail</label>
-	<input type="text" name="email" placeholder="JohnDoe@gmail.com" class="contact"/>
+		<label for="username" class="contact_label contact">Name</label>
+		<input type="text" name="username" placeholder="John" class="contact"/>
 
-	<br/>
+		<label for="email" class="contact_label contact">E-Mail</label>
+		<input type="text" name="email" placeholder="JohnDoe@gmail.com" class="contact"/>
 
-	<textarea type="text" name="message" id="contact_text"></textarea>
-	<br/>
+		<br/>
 
-	<input type="submit" id="sub_btn"/>
+		<textarea type="text" name="message" id="contact_text"></textarea>
+		<br/>
 
-</form>
+		<input type="submit" id="sub_btn"/>
+
+	</form>
+</div>
