@@ -118,6 +118,19 @@
 			width: 300px;
 			border: 1px solid #000;
 		}
+		#home_banner {
+			width: 100%;
+			margin-top: -14px;
+		}
+		#home_bottom_content {
+		width: 90%;
+		height: 400px;
+		background: rgb(33, 33, 33); /* Fall-back for browsers that don't support rgba */
+    	background: rgba(0, 0, 0, .5);
+		color: #fff;
+		font: 400 1.75em/175% 'Petit Formal Script', Helvetica, Sans-serif;
+		padding: 0 5% 0 5%;
+		}
 		footer {
 			height: 50px;
 			width: 100%;
