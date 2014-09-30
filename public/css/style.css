@@ -84,7 +84,7 @@
 		}
 		#content {	
 			width: 86%;
-			min-height: 750px;
+			min-height: 850px;
 			background: #fff;
 			margin: 0 auto;
 			background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
@@ -93,14 +93,17 @@
 		#content_wrapper {
 		width: 100%;
 		margin-top: 50px;
-		min-height: 700px
+		min-height: 850px;
+		margin-bottom: 50px;
+		padding-bottom: 20px;
+
 
 		}
 		#home_left {
 		width: 33%;
 		float: left;
     	color: #fff;
-    	font: 400 1.95em/125% 'Arial, Helvetica, Sans-serif';
+    	font: 400 2.15em/125% 'Arial, Helvetica, Sans-serif';
     	text-shadow: 1px 1px 2px #000;
     	text-align: center;
     	padding: 0 5px 0 5px;
