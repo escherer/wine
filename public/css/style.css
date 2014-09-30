@@ -86,6 +86,9 @@
 			margin: 0 auto;
 			background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
     		background: rgba(255, 255, 255, .5);
+    		font: 400 1.5em/100% 'Petit Formal Script', Helvetica, Sans-serif;
+    		color: #000;
+    		text-shadow: 1px 1px 2px #fff;
 		}
 		footer {
 			height: 50px;
