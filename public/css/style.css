@@ -114,19 +114,21 @@
 	margin: 0;
 	text-align: center;
 	margin-top: 50px;
+	color: #000000;
 }
 
 #contact_filler{
-	background: black;
 	display: inline-block;
-	width: 40%;
+	width: 45%;
+	margin-left: 20px;
 	height: 200px;
+	text-align: left;
+	border-left: solid 1px #444444;
+	padding-left: 20px;
 }
 
 #contact_form{
-	background: black;
 	display: inline-block;
-	margin-left: 20px;
 	vertical-align: top;
 	text-align: left;
 }
@@ -148,5 +150,5 @@
 
 #sub_btn{
 	border-radius: 5px;
-	float: right;
+	text-align: center;
 }
