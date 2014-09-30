@@ -27,32 +27,32 @@ end
 
 post '/confirmation' do
 
-	# m = Mandrill::API.new
+	m = Mandrill::API.new
 
-	# message = {
+	message = {
 
-	# 	:subject=> "Shady Grove Vineyard", 
-	# 	:from_name=> params["username"], 
+		:subject=> "Shady Grove Vineyard", 
+		:from_name=> params["username"], 
 
-	# 	:text=>params["message"], 
+		:text=>params["message"], 
 
-	# 	:to=>[ 
+		:to=>[ 
 
-	# 		{ 
-	# 	 		:email=> "frnkyn71790@gmail.com", 
-	# 	 		:name=> "Franky" 
-	# 		} 
+			{ 
+		 		:email=> "frnkyn71790@gmail.com", 
+		 		:name=> "Franky" 
+			} 
 
-	# 	], 
+		], 
 
-	# 	:html=>"<html><h1>Hi <strong>message</strong>, how are you?</h1></html>", 
-	# 	:from_email=>params["email"] 
+		:html=>params["message"], 
+		:from_email=>params["email"] 
 
-	# } 
+	} 
 
-	# sending = m.messages.send message 
+	sending = m.messages.send message 
 
-	# puts sending
+	puts sending
 
 	@title = "Confirmation"
 	erb :confirmation
