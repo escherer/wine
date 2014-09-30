@@ -1,17 +1,27 @@
-<form method="POST" action="/confirmation">
+<div id="contact_wrap">
+	<div id="contact">Contact Us</div>
+	<form method="POST" action="/confirmation" id="contact_form">
 
-	<label for="username">Name</label>
-	<input type="text" name="username" placeholder="John"/>
+		<label for="username" class="contact_label contact">Name</label>
+		<input type="text" name="username" placeholder="John" class="contact"/>
 
-	<label for="email">E-Mail</label>
-	<input type="text" name="email" placeholder="JohnDoe@gmail.com"/>
+		<label for="email" class="contact_label contact">E-Mail</label>
+		<input type="text" name="email" placeholder="JohnDoe@gmail.com" class="contact"/>
 
-	<br/>
+		<br/>
 
-	<textarea type="text" name="message"></textarea>
+		<textarea type="text" name="message" id="contact_text"></textarea>
+		<br/>
 
-	<br/>
+		<input type="submit" value="Send E-Mail" class="btn btn-primary" id="sub_btn"/>
 
-	<input type="submit"/>
+	</form>
 
-</form>
+	<div id="contact_filler">
+		<div class="contact_detail">Contact Details</div>
+		<div class="contact_detail_text">Questions, comment or concern? Send us an E-Mail to get in touch with someone at Shady Grove Vineyards.</div>
+		<div class="contact_detail">Headquarters</div>
+		<div class="contact_detail_text">Shady Grove Winery <br/>1 Shady Grove Road<br/>Shady Grove, California 94558</div>
+	</div>
+
+</div>

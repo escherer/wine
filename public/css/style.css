@@ -134,3 +134,70 @@
 	    	background: rgba(33, 33, 33, .7);
 
 		}
+
+
+/*contact page styling*/
+#contact_wrap{
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	margin-top: 50px;
+	color: #000000;
+}
+
+#contact_filler{
+	display: inline-block;
+	width: 45%;
+	margin-left: 20px;
+	height: auto;
+	text-align: left;
+	border-left: solid 1px #444444;
+	padding-left: 20px;
+}
+
+#contact{
+	text-align: left;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 75px;
+}
+
+#contact_form{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.contact_label{
+	font-weight: bold;
+}
+
+.contact{
+	display: inline-block;
+	font-size: 14pt;
+}
+
+#contact_text{
+	width: 95%;
+	padding: 2.5%;
+	height: 200px;
+}
+
+#sub_btn{
+	border-radius: 5px;
+	text-align: center;
+}
+
+.contact_detail{
+	margin-top: 35px;
+	margin-bottom: 15px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.contact_detail_text{
+	line-height: 1.5em;
+	font-size: 12pt;
+}
